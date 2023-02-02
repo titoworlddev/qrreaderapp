@@ -1,16 +1,14 @@
-# qrreaderapp
+# QrReader App
 
-A new Flutter project.
+This is an application that uses the flutter_barcode_scanner package to be able to read QRCodes or Barcodes and read their content. Specifically, this app opens URL links in the browser, but it can be used for more.
 
-## Getting Started
+It also uses the BLoC pattern for state management and SQFLite to store the value of the codes read.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px">
+  <img width="150" src="screenshot1.jpg" alt="Screenshot 1">
+  <img width="150" src="screenshot2.jpg" alt="Screenshot 2">
+  <img width="150" src="screenshot3.jpg" alt="Screenshot 3">
+  <img width="150" src="screenshot4.jpg" alt="Screenshot 4">
+  <img width="150" src="screenshot5.jpg" alt="Screenshot 5">
+  <img width="150" src="screenshot6.jpg" alt="Screenshot 6">
+</div>
