@@ -48,21 +48,21 @@ class _HomePageState extends State<HomePage> {
   }
 
   _scanQR(BuildContext context) async {
-    dynamic futureString = 'geo:40.71590644448746,-73.91255751093753';
+    // dynamic futureString = 'geo:40.71590644448746,-73.91255751093753';
     // dynamic futureString = 'https://www.twitch.tv/';
     // dynamic futureString = 'https://flutter.dev/';
 
-    // dynamic futureString;
-    // try {
-    //   futureString = await FlutterBarcodeScanner.scanBarcode(
-    //     '#ffffff',
-    //     'Cancel',
-    //     false,
-    //     ScanMode.DEFAULT,
-    //   );
-    // } catch (e) {
-    //   futureString = e.toString();
-    // }
+    dynamic futureString;
+    try {
+      futureString = await FlutterBarcodeScanner.scanBarcode(
+        '#ffffff',
+        'Cancel',
+        false,
+        ScanMode.DEFAULT,
+      );
+    } catch (e) {
+      futureString = e.toString();
+    }
 
     if (futureString != null) {
       final scan = ScanModel(
